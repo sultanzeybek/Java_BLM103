@@ -3,15 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Lab01;
+package Lab02;
 
 /**
  *
  * @author szeybek
  */
-public class Q2 {
+
+// Even or Odd without if-else condition
+
+public class EvenOdd {
     public static void main(String[] args) {
-        int radıus1;
-        double radıus2;
+        int number = 25;
+        String evenOdd = (number %2==0) ?  "Çifttir":"Tektir";
+        System.out.println(+number + " is " + evenOdd);
+    
     }
 }

@@ -5,6 +5,8 @@
  */
 package Lab02;
 
+import java.util.Scanner;
+
 /**
  *
  * @author szeybek
@@ -20,6 +22,18 @@ public class Q2 {
         
         double avarage = (a + b + c) / 3.0;
         System.out.println("The avarage of three numbers is " + avarage);
+        
+        Scanner my_scanner = new Scanner(System.in);
+        System.out.println("Enter first number:" );
+        a = my_scanner.nextInt();
+        System.out.println("Enter second number:" );
+        b = my_scanner.nextInt();
+        System.out.println("Enter third number:" );
+        c = my_scanner.nextInt();
+        
+        
+        System.out.println("The avarage of three numbers is " + (a+b+c)/3.0);
+
         
     }
 }

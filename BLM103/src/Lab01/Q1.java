@@ -15,13 +15,8 @@ public class Q1 {
     public static void main(String[] args) {
         String name = "Sultan";
         String surname = " Zeybek";
-        int age = 19;
-        char cinsiyet = 'K';
         System.out.print(name + " " + surname);
         System.out.println("");
-        System.out.print("Yas = " + age);
-        System.out.println("");
-        System.out.print(" cinsiyet" + cinsiyet);
 
         
     }

@@ -5,6 +5,8 @@
  */
 package Lab02;
 
+import java.util.Scanner;
+
 /**
  *
  * @author szeybek
@@ -22,7 +24,13 @@ package Lab02;
 public class Q3 {
     public static void main(String[] args) {
         
-        int number_count=5;
+        int number_count;
+        
+        System.out.println("Enter number count:");
+        Scanner my_scanner = new Scanner(System.in);
+        number_count = my_scanner.nextInt();
+        
+        
         int x = 1;
         int y = 2;
         int z = 3;
