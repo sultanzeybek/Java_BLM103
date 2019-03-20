@@ -12,6 +12,8 @@ package Lab06;
 public class Q6 {
     public static void main(String[] args) {
         System.out.println(factorial(5));
+        int number = 10;
+        System.out.println(factorial(number));
         
     }
             
